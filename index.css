@@ -1,1 +1,200 @@
-  
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 100px 100px 50px 100px;
+  background: #f3f3f3;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #181717;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #181717;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-family: "DM Sans";
+}
+
+/* main html content*/
+#about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+.about-section_info {
+  max-width: 480px;
+}
+.about-section_info h1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  color: #181717;
+}
+.about-section_info p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 117%;
+  color: #606060;
+}
+
+.skills-section {
+  margin-top: 140px;
+  margin-bottom: 130px;
+}
+.skills-section_item {
+  display: flex;
+  gap: 63px;
+  margin-bottom: 70px;
+}
+.skills-section_item h3 {
+  width: 130px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration-line: underline;
+  color: #181717;
+}
+
+.skills-section_item p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  color: #181717;
+}
+.skills-desc {
+  margin-top: 24px;
+}
+
+hr {
+  height: 2px;
+  background: #181717;
+}
+
+#contacts-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+#contacts-section p,
+#contacts-section h2 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 32px;
+  color: #181717;
+}
+#contacts-section p {
+  max-width: 340px;
+  cursor: pointer;
+}
+
+#contacts-info p {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #181717;
+  margin-top: 27px;
+}
+/* end */
+
+/* work html content */
+
+.about-brief {
+  display: flex;
+  margin-top: 240px;
+}
+.about-brief h1 {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 60px;
+  color: #181717;
+}
+
+.about-brief p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 32px;
+  color: #606060;
+  max-width: 600px;
+}
+
+.arrow {
+  margin-top: 120px;
+}
+
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+  margin-top: 110px;
+}
+.project-item_text {
+    width: 356px;
+}
+.project-item_text h1 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  color: #181717;
+  margin-bottom: 25px;
+}
+
+.project-item_text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  color: #181717;
+  margin-bottom: 135px;
+}
+.project-item_text .desc-main {
+    margin-bottom: 30px;
+}
+.project-item_text .desc {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 130px;
+}
+.project-item_text .link {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  color: #181717;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* end */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 170px;
+}
+
+footer p {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 21px;
+  color: #2429af;
+}
